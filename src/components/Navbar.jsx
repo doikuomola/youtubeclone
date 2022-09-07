@@ -11,9 +11,8 @@ export default function Navbar() {
       direction="row"
       justifyContent="space-between"
       alignItems="center"
-          spacing={2}
-          
-      sx={{ backgroundColor: '#000', position: 'sticky', top: 0, pt:2  }}
+      spacing={2}
+      sx={{ backgroundColor: '#000', position: 'sticky', top: 0, pt: 1, pb: 1 }}
     >
       <Link to="/">
         <img src={logo} alt="logo" height={45} />
